@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+}
+
+.signin, form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin {
+    height: 100vh;
+    width: 55vw; 
+    background-color: rgb(235, 213, 255);
+}
+
+h1 {
+    color: rgb(42, 0, 81);
+    margin-bottom: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input {
+    text-align: left;
+    padding: 20px 10px;
+    border: 0;
+    margin: 5px;
+    background-color: rgba(42, 0, 81, 0.109);
+    border-radius: 5px;
+    width: 35vw;
+    color: rgb(42, 0, 81);
+}
+
+:focus {
+    outline: 0;
+}
+
+::placeholder {
+    color: rgb(42, 0, 81);
+}
+
+button {
+    margin-top: 35px;
+    border: 0;
+    padding: 20px;
+    width: 25vw;
+    border-radius: 20px;
+    background-color: rgb(194, 129, 255);
+    color: rgb(245, 235, 255);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(202, 146, 255);
+    
+}
+
+button:active {
+    background-color: rgb(208, 158, 255);
+}
+
+a {
+    margin-top: 25px;
+    color: rgb(42, 0, 81);
+}
