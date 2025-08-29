@@ -2,7 +2,12 @@
     margin: 0;
 }
 
-.signin, form {
+body {
+    display: flex;
+    align-items: center;
+}
+
+.signin, form, .signup{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,7 +50,7 @@ button {
     border: 0;
     padding: 20px;
     width: 25vw;
-    border-radius: 20px;
+    border-radius: 25px;
     background-color: rgb(194, 129, 255);
     color: rgb(245, 235, 255);
     cursor: pointer;
@@ -63,4 +68,25 @@ button:active {
 a {
     margin-top: 25px;
     color: rgb(42, 0, 81);
+}
+
+.signup {
+    height: 100vh;
+    width: 45vw;
+    background-color: rgb(241, 226, 255);
+}
+
+.create-account-text {
+    text-align: center;
+}
+
+.signup-button {
+    background-color: rgb(241, 226, 255);
+    border: 1px solid rgb(42, 0, 81);
+    color: rgb(42, 0, 81);
+}
+
+.signup-button:hover {
+    background-color: rgb(42, 0, 81);
+    color: rgb(241, 226, 255);
 }
